@@ -21,6 +21,6 @@ namespace ExamSystem.Models
 
         public virtual Ders? Ders { get; set; }  // Nullable navigation property
 
-        public virtual Sagird? Sagird { get; set; }  // Nullable navigation property
+        public virtual Sagird? Sagird { get; set; }  
     }
 }

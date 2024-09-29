@@ -6,15 +6,14 @@ namespace ExamSystem.Models
     {
         [Key]
         [StringLength(3)]
-        public string? DersKodu { get; set; }  // Nullable string
-
+        public string? DersKodu { get; set; }   
         [StringLength(30)]
-        public string? DersAdi { get; set; }  // Nullable string
+        public string? DersAdi { get; set; }   
 
         [StringLength(20)]
-        public string? MuellimAdi { get; set; }  // Nullable string
+        public string? MuellimAdi { get; set; } 
 
         [StringLength(20)]
-        public string? MuellimSoyadi { get; set; }  // Nullable string
+        public string? MuellimSoyadi { get; set; }   
     }
 }

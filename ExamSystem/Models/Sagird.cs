@@ -9,12 +9,11 @@ namespace ExamSystem.Models
 
         [Required]
         [StringLength(30)]
-        public string? Adi { get; set; }  // Nullable string
+        public string? Adi { get; set; }  
 
         [Required]
         [StringLength(30)]
-        public string? Soyadi { get; set; }  // Nullable string
-
+        public string? Soyadi { get; set; }  
         [Required]
         public int Sinifi { get; set; }
     }
